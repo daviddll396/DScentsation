@@ -1,0 +1,92 @@
+.footer {
+  background: #f7f7f7;
+  padding: 48px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.about-header,
+.news-header,
+.links-header {
+  font-size: 20px;
+
+  margin-bottom: 16px;
+}
+
+.footer-about,
+.footer-newsletter,
+.footer.links {
+  flex: 1;
+}
+
+.about-copy {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.about-text {
+  margin-bottom: 20px;
+  font-size: 14px;
+  width: 400px;
+}
+.about-nums {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.news-text {
+  margin-bottom: 20px;
+  font-size: 14px;
+  width: 300px;
+}
+
+.news-input-flex {
+  display: flex;
+  gap: 6px;
+}
+.news-input-flex input {
+  font-size: 12px;
+  width: 200px;
+  height: 45px;
+  padding: 0px 8px;
+  border-radius: 2px;
+  border: 1px solid lightgrey;
+}
+
+.news-ok {
+  font-size: 13px;
+  padding: 0px 16px;
+  height: 45px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #444444;
+  color: #fff;
+  cursor: pointer;
+}
+
+.link {
+  color: #444444;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-bot-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-bot-flex img {
+  width: 26px;
+  height: 20px;
+}
+
+.footer-bot-flex p {
+  font-size: 13px;
+}
